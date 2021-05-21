@@ -10,6 +10,10 @@ jobs:
     name: Push Docker image to GitHub Packages
     runs-on: ubuntu-latest
     steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
       - name: Create Short SHA
         uses: benjlevesque/short-sha@v1.2
         id: short-sha
