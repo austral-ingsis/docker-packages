@@ -3,7 +3,7 @@ on:
   push:
 
 env:
-  IMAGE: ghcr.op/austral-ingsis/echo-plain:v0.3
+  IMAGE: ghcr.io/austral-ingsis/echo-plain:v0.3
 
 jobs:
   push_to_registry:
