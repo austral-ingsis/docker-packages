@@ -28,4 +28,4 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: gchr.io/austral-ingsis/echo:${{ steps.short-sha.outputs.sha }}
+          tags: ghcr.io/austral-ingsis/echo:${{ steps.short-sha.outputs.sha }}
